@@ -1,0 +1,14 @@
+
+# Created by https://www.gitignore.io/api/ne,netbeans
+
+#!! ERROR: ne is undefined. Use list command to see defined gitignore types !!#
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# End of https://www.gitignore.io/api/ne,netbeans
