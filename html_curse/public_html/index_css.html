@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>My Web Page</title>
+        <meta name="description" content="This is a web page about fish.
+              We cover all the fish in the world."/>
+        <meta name="keywords" content="fish, ocean, aquarium"/>
+        <meta name="author" content="John Doe" />
+        <meta http-equiv="content-language" content="en-us"/>
+        <style>
+            h1 {
+                background-color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The Fish web site</h1>
+        <p>Welcome to the Fish Web Site. Everything you want to know about fish is in this web site. Why this is</p>
+        test&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;test
+        <br>
+        <!-- This is the start of the html code for the second section and we wil start each section with a header tag -->
+        <h2>This is a section on Bass fish</h2>
+        <p>Bash fish live in lakes.</p>
+        <h2>Ordered and Unordered list</h2>
+        <ul>
+            <li>CD</li>
+            <li>DVD</li>
+            <li>Blue Ray</li>
+        </ul>
+        <ol>
+            <li>CD</li>
+            <li>DVD</li>
+            <li>Blue Ray</li>
+        </ol>
+        <h2>Tables</h2>
+        <table>
+            <tr>
+                <th>The Planets</th>
+                <th>The Oceans</th>
+                <th>The Deserts</th>
+            </tr>
+            <tr>
+                <td>Earth</td>
+                <td>Pacific</td>
+                <td>Sahara</td>
+            </tr>
+            <tr>
+                <td>Pluto</td>
+                <td>Atlantic</td>
+                <td>Gobi</td>
+            </tr>
+        </table>
+        <h2>Links</h2>
+        <p>Please click on this <a href="https://youtube.com">link</a> (this takes you to youtube)</p>
+        <h2>Creating Links within the same web page</h2>
+        <ul>
+            <li><a href="#form-section">Form section</a> </li>
+            <li><a href="#scape-characters-section">Scape characters section</a> </li>
+            <li><a href="#images-section">Images section</a> </li>
+            <li><a href="#text-section">Text section</a> </li>
+            <li><a href="#audio-section">Audio section</a> </li>
+            <li><a href="#video-section">Video section</a> </li>
+        </ul>
+        <h2><a name="images-section">Images</a></h2>
+        <p>
+            <img src="resources/images/et.png" width="200" height="200">
+        </p>
+        <h2><a name="form-section">Forms</a></h2>
+        <form>
+            <fieldset>
+                <legend>Enter day you want to travel</legend>
+                <h3>Text box</h3>
+                <!-- Input elements go in here -->
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" ></br></br>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" ></br></br>
+                <h3>Multiline Text box</h3>
+                Comments: </br>
+                <textarea rows="10" cols="40"></textarea></br>
+                <input type="submit" value="Submit">
+                </br>
+                <h3>Radiobuttons</h3>
+                <!-- We have to give the same name to the radiobutton because
+                we want to be able to select on one of them -->
+                Yes:
+                <input type="radio" name="yesorno" value=""></br>
+                No:
+                <input type="radio" name="yesorno" value="">
+                </br>
+                <h3>Checkbox</h3>
+                which subjects are you interested in?<br>
+                <input type="checkbox">Football<br>
+                <input type="checkbox">Basketball<br>
+                <input type="checkbox">Baseball<br>
+                <input type="checkbox">Hockey
+                </br>
+                <h3>Number input box</h3>
+                <input type="number" min="0" max="50">
+                </br>
+                <h3>Drop down list</h3>
+                <select>
+                    <option value="Michigan">Michigan</option>
+                    <option value="Alabama">Alabama</option>
+                    <option value="north-dakota">North Dakota</option>
+                </select>
+                </br>
+                <h3>Date and number box</h3>
+                Enter day you want to travel to Cancun:
+                <input type="date" name="day"></br>
+                Number of days: <input type="number" name="numdays" min="1" max="10">
+                </br>
+                <h3>Field box and legend elements</h3>
+                <br><br>
+                Name: <input type="text">
+            </fieldset>
+            
+        </form>
+        <h2><a name="scape-characters-section">Scape characters</a></h2>
+        <p>And so we end our table. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The end &#8482;&copy;</p>
+        <h2><a name="text-section"Text elements</a></h2>
+        <p>This is a <b>bold</b> element...</p>
+        <p>This is a <strong>strong</strong> element...</p>
+        <p>This is a <i>italic</i> element...</p>
+        <p>This is a <em>em</em> element...</p>
+        <h2>iframe element</h2>
+        <iframe frameborder="1" 
+                width="200" 
+                height="200"
+                src="first.html" 
+                name="ouriframe"
+                id="ouriframe">
+            Do you see this?            
+        </iframe><br />
+        <a href="second.html" target="ouriframe">switch to new document</a>
+        <h2>sup and sub element</h2>
+        <p>The expert said a lot on August 23<sup>rd</sup>.</p>
+        <p>There is plenty of H<sub>2</sub>O in the lake</p>
+        <h2>title and alt attributes</h2>
+        <img src="resources/images/julius_caesar.jpg" 
+             title="Julius Caesar"
+             alt="Julius Caesar image">
+        <h2><a name="audio-section">Audio element</a></h2>
+        <!-- there are more elements like: autoplay loop draggable="true" -->
+        <audio controls >
+            <source src="resources/audio/fart-01.mp3"/>
+        </audio>
+        <h2><a name="video-section">Video element</a></h2>
+        <video controls width="640" height="360">
+            <source src="resources/video/baby_Through_the_fire_and_flames.mp4"/>
+            <source src="resources/video/baby_Through_the_fire_and_flames.ogg"/>
+            
+        </video>
+        
+       
+    </body>
+</html>
+
