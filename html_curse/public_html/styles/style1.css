@@ -7,8 +7,9 @@ body {
     margin: 20px;
 }
 h1 {
-    border: 1px solid black;
+    border: 5px solid green;
     font-size: 150%;
+    padding: 10px;
 }
 h2 {
     border-bottom: 1px solid black;
@@ -47,5 +48,25 @@ p.para3 {
     padding: 20px;
     border-color: brown;
     border-width: 2px;
+    border-style: solid;
+}
+p.para4 {
+    color:black;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 20px;
+    border-color: brown;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 50%;
+    padding: 30px;
+}
+.imagec {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    background-color: silver;
+    border-color: darkblue;
     border-style: solid;
 }
