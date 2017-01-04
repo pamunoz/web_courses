@@ -2,7 +2,7 @@ body {
     color: green;
     font-family: verdana, Arial, Geneva, Arial Black;
     font-weight: lighter;
-    background-color: background;
+    background-color: bisque;
 }
 h1 {
     border: 1px solid black;
@@ -10,6 +10,7 @@ h1 {
 h2 {
     border-bottom: 1px solid black;
     font-weight: normal;
+    background-color: rgb(240, 28, 235);
 }
 h1, h2 {
     text-decoration: underline overline;
@@ -20,6 +21,7 @@ p.paraf1 {
     font-size: 16px;
     font-weight: bold;
     text-decoration: line-through;
+    font-style: oblique;
 }
 
 p.para2 {
@@ -28,10 +30,10 @@ p.para2 {
     font-size: 25px;
     font-weight: bolder;
     text-decoration: none;
-    font-style: oblique;
 }
 
 p.para3 {
+    background-color: #ffcf79;
     color: purple;
     font-size: 25px;
     font-style: italic;
