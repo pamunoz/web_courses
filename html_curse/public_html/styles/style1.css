@@ -20,6 +20,9 @@ h2 {
 h1, h2 {
     text-decoration: underline overline;
 }
+
+
+
 p.paraf1 {
     color: blue;
     background-color: yellow;
@@ -51,7 +54,7 @@ p.para3 {
     border-style: solid;
     background-image: url(https://www.transparenttextures.com/patterns/black-linen.png);
 }
-p.para4 {
+#paraf4homepage{
     color:black;
     font-size: 15px;
     line-height: 1.5em;
