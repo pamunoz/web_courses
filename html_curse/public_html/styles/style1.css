@@ -2,6 +2,7 @@ body {
     color: green;
     font-family: verdana, Arial, Geneva, Arial Black;
     font-weight: lighter;
+    background-color: background;
 }
 h1 {
     border: 1px solid black;
@@ -10,18 +11,28 @@ h2 {
     border-bottom: 1px solid black;
     font-weight: normal;
 }
-.blue-p {
+h1, h2 {
+    text-decoration: underline overline;
+}
+p.paraf1 {
     color: blue;
     background-color: yellow;
     font-size: 16px;
     font-weight: bold;
+    text-decoration: line-through;
 }
-.underline {
-    text-decoration: underline;
-}
-p.purple-p {
+
+p.para2 {
     color: purple;
     background-color: yellow;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: bolder;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+p.para3 {
+    color: purple;
+    font-size: 25px;
+    font-style: italic;
 }
