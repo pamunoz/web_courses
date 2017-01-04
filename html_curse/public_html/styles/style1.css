@@ -41,7 +41,7 @@ p.para2 {
 
 p.para3 {
     background-color: #ffcf79;
-    color: purple;
+    color: lightcyan;
     font-style: italic;
     font-size: 15px;
     line-height: 1.5em;
@@ -49,6 +49,7 @@ p.para3 {
     border-color: brown;
     border-width: 2px;
     border-style: solid;
+    background-image: url(https://www.transparenttextures.com/patterns/black-linen.png);
 }
 p.para4 {
     color:black;
