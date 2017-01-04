@@ -3,14 +3,17 @@ body {
     font-family: verdana, Arial, Geneva, Arial Black;
     font-weight: lighter;
     background-color: bisque;
+    font-size: 16px;
 }
 h1 {
     border: 1px solid black;
+    font-size: 150%;
 }
 h2 {
     border-bottom: 1px solid black;
     font-weight: normal;
     background-color: rgb(240, 28, 235);
+    font-size: 1.1em;
 }
 h1, h2 {
     text-decoration: underline overline;
@@ -18,7 +21,6 @@ h1, h2 {
 p.paraf1 {
     color: blue;
     background-color: yellow;
-    font-size: 16px;
     font-weight: bold;
     text-decoration: line-through;
     font-style: oblique;
@@ -27,7 +29,6 @@ p.paraf1 {
 p.para2 {
     color: purple;
     background-color: yellow;
-    font-size: 25px;
     font-weight: bolder;
     text-decoration: none;
 }
@@ -35,6 +36,5 @@ p.para2 {
 p.para3 {
     background-color: #ffcf79;
     color: purple;
-    font-size: 25px;
     font-style: italic;
 }
