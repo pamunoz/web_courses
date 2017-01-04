@@ -10,12 +10,14 @@ h1 {
     border: 5px solid green;
     font-size: 150%;
     padding: 10px;
+    
 }
 h2 {
     border-bottom: 1px solid black;
     font-weight: normal;
     background-color: rgb(240, 28, 235);
     font-size: 1.1em;
+    text-align: center;
 }
 h1, h2 {
     text-decoration: underline overline;
