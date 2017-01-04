@@ -4,6 +4,7 @@ body {
     font-weight: lighter;
     background-color: bisque;
     font-size: 16px;
+    margin: 20px;
 }
 h1 {
     border: 1px solid black;
@@ -28,13 +29,23 @@ p.paraf1 {
 
 p.para2 {
     color: purple;
-    background-color: yellow;
+    background-color: #e5e4d7;
     font-weight: bolder;
     text-decoration: none;
+    padding: 20px;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
 }
 
 p.para3 {
     background-color: #ffcf79;
     color: purple;
     font-style: italic;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding: 20px;
+    border-color: brown;
+    border-width: 2px;
+    border-style: solid;
 }
